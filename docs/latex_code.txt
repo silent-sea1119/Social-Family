@@ -1,0 +1,68 @@
+\documentclass[fleqn,12pt]{wlscirep}
+\title{SOCIAL FAMILY\\ Cloud Application Development: Team E}
+
+\author[1]{John Philip Wilson}
+\author[1]{Anton Okhotnikov}
+\author[1]{Yixuan Xu}
+\author[1]{Nunzio Gatti}
+\author[1]{Richa Ranjan}
+\author[1]{Susmita Gangopadhyay}
+\author[1]{Junming Zhang}
+\affil[1]{University of Southampton, MSc Data Science}
+
+%\keywords{Keyword1, Keyword2, Keyword3}
+
+\begin{abstract}
+This application, called the "\textbf{Social Family}" app, deals with providing parental guidance for a messaging service for pre-teen kids. The application has been hosted on Google App Engine on the following url:\\
+
+\end{abstract}
+\begin{document}
+
+\flushbottom
+\maketitle
+% * <john.hammersley@gmail.com> 2015-02-09T12:07:31.197Z:
+%
+%  Click the title above to edit the author information and abstract
+%
+\thispagestyle{empty}
+
+\section*{INTRODUCTION}
+With the advent of internet and it's growing popularity over the last decade, children aged between 5-13 have been exposed to a plethora of messaging applications regularly. It seems that almost every week there is a new app or website that kids are using to IM (instant message) each other and it can be hard to keep up for parents. [1] It is really important for the parents to know how these applications work, and how old their child should be, to be able to use them, to help avoid \textit{cyberbullying} or \textit{sexting}. We, as a group of 7 people, have come up with an application designed for kids to communicate using messages, with an added advantage of parental guidance.
+
+\section*{PROTOTYPE FUNCTIONALITY}
+The Social Family app is designed for parents to be able to add another child's contact, and thus authorize the communication between their child and this added contact. When a child comes up with a contact name/ID to be added to his friend list, the request has to go through the Parent. In this way, the parent is aware of who their child is making friends, or having a conversation with. The application functionality is summarized in the following steps:
+\begin{enumerate}
+\item In the first step, when a Parent tries to load the application, they would be redirected to the Google login page, as this app uses the Google login authentication.
+\item For the first login, Registration is required. For this, the user is asked to create a 4-digit PIN. This would serve as an identification for the following sessions.
+\item The parent, once successfully logged in, would now be able to log in on the child's device, and search for the child's friend ID.
+\item Once the parent adds a friend to the child's contact, the child will now be authorized to have a chat session with the friend. The child is not authorized to add new contacts on his own. Parental authentication is a must for this.
+\item To send/receive messages, \textbf{Twilio} SDK packages are used. Twilio enables the parent to track their child's conversations by keeping the HTTP cookies saved. This way, the parent would be able to monitor the content of the messages as well.
+\end{enumerate}
+
+\section*{TOOLS AND TECHNIQUES}
+The application has been designed using the following tools:
+\begin{itemize}
+\item Google App Engine -for the deployment of the application
+\item Python 2.7 -the code for the server side application has been written using Python 2.7
+\item Javascript -the client side programming is done using Javascript, HTML and React
+\item Flask, Jinja -it is the web framework we used for Python
+\item Twilio -for the messaging service
+\item MongoDB -it is the database instance hosted by Amazon Web Services, used for storing the application data.
+\end{itemize}
+
+\section*{STATISTICS}
+Lines of code:\\
+Tool used for testing:\\
+Test results:
+
+\section*{DESIGN}
+
+\section*{IMPLEMENTATION}
+
+\section*{CRITICAL EVALUATION}
+
+\section*{CONCLUSION}
+
+\section*{MARKET RESEARCH}
+
+\end{document}

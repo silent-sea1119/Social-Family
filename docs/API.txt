@@ -1,0 +1,66 @@
+post /api/addAdultContact
+{
+    id: "job.blog@gmail.com"
+}
+{
+    userRegistered : boolean,
+    added : boolean    
+}
+
+post /api/registerUser
+{
+    pin: "1234"
+}
+{
+    alreadyRegistered : boolean 
+    success : boolean
+}
+
+
+// session in progress
+get /api/contacts
+{
+    contacts : { {name : "", id : ""} , .....}
+}
+
+// session in progress
+Delete /api/contacts?id="joe.blog@gmail.com"
+{
+    deleted : boolean
+}
+
+// start chat session
+get /api/chatSession?id="joe.blog@gmail.com"
+{
+    token : { channel : "id:id" , twilioToken : object } 
+}
+
+// lock session for child use, prevents editing of contacts
+get /api/lockSession
+{
+    valid : boolean
+}
+
+post /api/unlockSession
+{
+    pin : "1234"
+}
+{
+    validPin : true
+}
+
+get /api/sentimentAnalysis
+{
+    chatHistory: string
+}
+{
+    keyWords: [string,...],
+    agner: float, // 0.0 to 1.0
+    joy: float,
+    sadness: float,
+    fear: float,
+    disgust: float,
+    emotion: float
+}
+
+

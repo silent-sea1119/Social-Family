@@ -1,0 +1,82 @@
+
+Page 1:
+Introduction
+Target is 5 years and above at the point childeren start to read and write.
+
+The objective is to provide young children safe access to text communication with freinds and family with the aim of helping them to develop there lanugage and social skills
+
+key feature is parental safe guarding (instead of guidance)
+
+MARKET RESEARCH
+---insert here
+
+primary features:
+1) Parent is given control over who their child is able to contact
+2) Parent is able to monitor and review the childs chat history
+3) Parent is given warning if inappropriate messages are being sent or recived.
+4) multiplatform support, web, iOS, Android and Kindle Fire
+
+Prototype functionality
+The key aims of our prototype is to demonstrate the primary features (listed above)
+
+As a design pattern we have followed a classic chat app model such as WhatsApp, Skype
+
+our main view presents a list of contacts along side a chat window
+
+the parent has full control to add and remove contacts.
+
+When passing to the child the parent locks the application using a pin. This prevents the child adding or removing contacts.  The child is still able to select a contact and send/revice messages.
+
+Page 2:
+
+TOOLS AND TECHNIQUES
+Chat is not new, what was missing was simply the ability to give parents control and support on multiple platforms.
+
+to this end we aimed to focus the code we write other these two aspects and where ever possible biuild on top of existing tool kits
+
+This has lead us to make use of the following:
+1) GAE for platform hosting
+2) Mongo/Datastore for datbase
+3) Google authentication, means one less pass word for the user to remember
+4) Twilio - a hosted third part chat service, manages chat channels and chat history
+5) IBM Watson - a hosted third part natural language processing for sentiment analysis on messages to enable automatic parental alerts for concerning messages
+6) React - client side GUI toolkit
+7) Webpacks - packaging of javascript client
+8) python unittest - unit tests for server side rest API
+9) flask - python applicaction frameworl
+10) Bable - platform portability, support for older browsers
+11) jinja2 - html templating framework
+
+Page 3:
+STATISTICS
+insert links and descriptions of twilio, google auth, IBM WATSON 
+Lines of code:
+Tool used for testing: Test results:
+
+Page 4:
+DESIGN & IMPLEMENTATION
+List of the four pages:
+1) index : decribes service 
+2) signin : allows user to sign in using google
+3) register : allows usewr to create an account and set lock PIN
+4) home : the main app page with contacts and chat window
+
+
+-- insert page linkage diagram
+
+the majority of our application is implemented client side in the app home page.
+
+in addition to this perminant data storage is implemted sever side in the for of a REST API
+
+Also we wrap the use of IBM watson behind our own REST API
+
+Page 5:
+CRITICAL EVALUATION
+--- insert later once we have something to critque 
+
+CONCLUSION
+--- insert later
+
+
+
+

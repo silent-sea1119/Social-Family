@@ -1,0 +1,5 @@
+Please be aware that our team lead John Philip Wilson (jpw1n17) has been ill for the last 3 weeks which has impacted the teams finilising the project submission.
+
+a working version of the application can be found in the "web_application" founder.  This is not in the require layout for the submission.
+
+A non working version of the source seperated into Source A, B, C can be found in the "Source_code.zip"

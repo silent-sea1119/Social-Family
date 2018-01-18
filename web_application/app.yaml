@@ -1,0 +1,31 @@
+# Source A
+runtime: python
+env: flex
+entrypoint: gunicorn -b :$PORT app:app
+
+runtime_config:
+  python_version: 2
+
+# [START handlers]
+handlers:
+- url: /static
+  static_dir: static
+
+- url: /.*
+  script: app.app
+# [END handlers]
+env_variables:
+  #Google SignIn
+  GOOGLE_CLIENT_ID: 
+  GOOGLE_CLIENT_SECRET: 
+  REDIRECT_URI: 
+  SECRET_KEY: 'development key'
+  #MongoDB URI
+  MONGODB_URI: 
+  #TWILIO 
+  TWILIO_ACCOUNT_SID: 
+  TWILIO_API_KEY: 
+  TWILIO_API_SECRET:
+  # Required for Chat
+  TWILIO_CHAT_SERVICE_SID: 
+ 

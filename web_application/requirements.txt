@@ -1,0 +1,14 @@
+Flask==0.12.2
+flask-cors==3.0.3
+flask-restful==0.3.6
+gunicorn==19.7.1
+requests==2.18.4
+requests-toolbelt==0.8.0
+Bunch==1.0.1
+twilio==6.2.0a1
+python-dotenv==0.6.0
+inflection==0.3.1
+flask_oauth
+simplejson
+pymongo
+watson_developer_cloud==1.0.0

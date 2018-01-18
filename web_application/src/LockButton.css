@@ -1,0 +1,29 @@
+/*Source A*/
+.locked {
+  background-image: url(./ic_unlock.svg);
+  position: relative;
+  height: 36px;
+  width: 95%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  background-position: center;
+}
+
+.unlocked {
+  background-image: url(./ic_lock.svg);
+  position: relative;
+  height: 36px;
+  width: 140%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  background-position: center;
+}
+
+#PIN {
+  position: relative;
+  width: 93%;
+}
+
+.finalDiv {
+  width: 100%;
+}
