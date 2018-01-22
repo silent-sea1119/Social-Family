@@ -13,6 +13,8 @@ Group corsework in university
 ## Step 6: Monitor the chatting information with sentiment anlysis function
 ![image](https://github.com/Trouble404/Social-Family/blob/master/readme_add_pic/display.PNG)
 
+---
+
 # Introduction and development guide
 
 ---
