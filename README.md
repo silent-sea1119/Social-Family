@@ -1,4 +1,17 @@
 Group corsework in university
+# General guide
+## Step 1: login with google account
+![image](https://github.com/Trouble404/Social-Family/blob/master/readme_add_pic/login.PNG)
+## Step 2: Set the pin to contral chatting app
+![image](https://github.com/Trouble404/Social-Family/blob/master/readme_add_pic/setpin.PNG)
+## Step 3: Create the chat channel
+![image](https://github.com/Trouble404/Social-Family/blob/master/readme_add_pic/setcha.PNG)
+## Step 4: Add friend to channel with google account
+![image](https://github.com/Trouble404/Social-Family/blob/master/readme_add_pic/addfri.PNG)
+## Step 5: Lock the channel setting
+![image](https://github.com/Trouble404/Social-Family/blob/master/readme_add_pic/lock.PNG)
+## Step 6: Monitor the chatting information with sentiment anlysis function
+![image](https://github.com/Trouble404/Social-Family/blob/master/readme_add_pic/display.PNG)
 
 # Introduction and development guide
 
